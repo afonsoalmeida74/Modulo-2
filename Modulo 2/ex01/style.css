@@ -1,0 +1,20 @@
+/* EX01 — Selectors */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #243047; background: #f3f6fb; }
+h1 { letter-spacing: .04em; }
+#topo { background: #172554; color: white; padding: 1.5rem; }
+#topo nav { display: flex; gap: 1rem; }
+a { color: #2563eb; }
+#topo a { color: white; text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:focus-visible, button:focus-visible { outline: 3px solid #f59e0b; outline-offset: 3px; }
+main { width: min(900px, 92%); margin: 2rem auto; }
+.painel { background: white; border: 1px solid #dbe3ef; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; }
+.painel h2 { color: #1d4ed8; }
+.destaque { border-left: 4px solid #2563eb; padding-left: .75rem; font-weight: bold; }
+[data-tipo="aviso"] { color: #92400e; background: #fef3c7; padding: .7rem; border-radius: 6px; }
+li:first-child { color: #047857; }
+li:nth-child(2) { font-weight: bold; }
+button { background: #2563eb; color: white; border: 0; padding: .7rem 1rem; border-radius: 7px; cursor: pointer; }
+button:hover { background: #1d4ed8; }
+footer { text-align: center; padding: 1rem; color: #64748b; }

@@ -1,0 +1,12 @@
+/* EX02 — Box Model */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #1e293b; }
+.container { width: min(1000px, 92%); margin: 3rem auto; }
+.cartoes { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: stretch; }
+.cartao { width: 280px; padding: 1.25rem; border: 4px solid #2563eb; margin: 0; border-radius: 12px; background: white; }
+.cartao h2 { margin-top: 0; }
+.content { box-sizing: content-box; border-color: #dc2626; }
+.border { box-sizing: border-box; border-color: #059669; }
+.normal { border-color: #7c3aed; }
+/* Com content-box, a largura exterior é 280px + 2*20px padding + 2*4px border = 328px.
+   Com border-box, a largura exterior total é 280px. */
